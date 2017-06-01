@@ -338,6 +338,7 @@ var servicesSchemaDataV2 = `{
         "health_check": {"type": "object"},
         "hostname": {"type": "string"},
         "image": {"type": "string"},
+        "init": {"type": "boolean"},
         "ipc": {"type": "string"},
         "isolation": {"type": "string"},
         "labels": {"$ref": "#/definitions/list_or_dict"},

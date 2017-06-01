@@ -153,6 +153,7 @@ type ServiceConfig struct {
 	ExtraHosts        []string             `yaml:"extra_hosts,omitempty"`
 	GroupAdd          []string             `yaml:"group_add,omitempty"`
 	Image             string               `yaml:"image,omitempty"`
+	Init              bool                 `yaml:"init,omitempty"`
 	Isolation         string               `yaml:"isolation,omitempty"`
 	Hostname          string               `yaml:"hostname,omitempty"`
 	Ipc               string               `yaml:"ipc,omitempty"`
